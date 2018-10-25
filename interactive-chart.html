@@ -22,7 +22,7 @@ background-color:lightgrey;
  font-size:4px;
     height: 20px;
 	width:2450px;
-
+	
 }
  p{min-width: 310px;
   max-width: 1200px;
@@ -42,8 +42,8 @@ document.getElementById("demo").innerHTML = d.toDateString();
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <footer><h1>Cost of producing a barrel of oil and gas 2016</h1></footer>
   <p>This diagram depicts the general picture of oil and gas production worldwide at a selected time in the years 2016.
-  It shows the increase and decrease in prices from production. The average cash to product by countries is described 
-as  while as the shared cost in dollar prices.
+  It shows the increase and decrease in prices from production. The average cash to product by countries is described as a percentage
+  while the shared cost in dollar prices.
   </p>
 <div id="sankey_multiple" style="width: 1200px; height: 559; padding-top:10px;"></div>
 
@@ -57,7 +57,7 @@ as  while as the shared cost in dollar prices.
     data.addColumn('number', 'Crude oil price $'); 
 
     data.addRows([
-              [' Average cash cost to produce in 20016 by countries', 'UK', 1.94],
+        [' Average cash cost to produce in 20016 by countries', 'UK', 1.94],
 		 [' Average cash cost to produce in 20016 by countries', 'Brazil', 1.53],
 		  [' Average cash cost to produce in 20016 by countries', 'Nigeria', 1.27],
 		   [' Average cash cost to produce in 20016 by countries', 'Venezuela', 1.21],
